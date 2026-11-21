@@ -1,19 +1,19 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_062_baby_piano/core/achievements.dart';
-import 'package:game_062_baby_piano/core/clock.dart';
-import 'package:game_062_baby_piano/core/collection.dart';
-import 'package:game_062_baby_piano/core/daily.dart';
-import 'package:game_062_baby_piano/core/game_rules.dart';
-import 'package:game_062_baby_piano/core/game_session.dart';
-import 'package:game_062_baby_piano/core/integrity.dart';
-import 'package:game_062_baby_piano/core/level_plan.dart';
-import 'package:game_062_baby_piano/core/missions.dart';
-import 'package:game_062_baby_piano/core/monetization.dart';
-import 'package:game_062_baby_piano/core/progression.dart';
-import 'package:game_062_baby_piano/core/rng.dart';
-import 'package:game_062_baby_piano/core/save_data.dart';
-import 'package:game_062_baby_piano/core/save_store.dart';
-import 'package:game_062_baby_piano/core/telemetry.dart';
+import 'package:studio_core/core/achievements.dart';
+import 'package:studio_core/core/clock.dart';
+import 'package:studio_core/core/collection.dart';
+import 'package:studio_core/core/daily.dart';
+import 'package:studio_core/core/game_rules.dart';
+import 'package:studio_core/core/game_session.dart';
+import 'package:studio_core/core/integrity.dart';
+import 'package:studio_core/core/level_plan.dart';
+import 'package:studio_core/core/missions.dart';
+import 'package:studio_core/core/monetization.dart';
+import 'package:studio_core/core/progression.dart';
+import 'package:studio_core/core/rng.dart';
+import 'package:studio_core/core/save_data.dart';
+import 'package:studio_core/core/save_store.dart';
+import 'package:studio_core/core/telemetry.dart';
 import 'package:game_062_baby_piano/game/rules.dart';
 
 class _FailingSink implements AnalyticsSink {
